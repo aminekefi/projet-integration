@@ -11,12 +11,6 @@
         <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
             rel='stylesheet'>
-
-
-
-            <!-- CSS only -->
-
-
     </head>
     <body>
         <div class="navbar navbar-fixed-top">
@@ -69,48 +63,63 @@
                         </div>
                         <!--/.sidebar-->
                     </div>
-                    <!--/.span3-->
 
                     <div class="span9">
-                        <center>
-                            <div class="card" style="width: 50%;">
-                                <img class="card-img-top" src="images/profile2.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <i>
-                                        <h1 class="card-title"><center></center></h1>
-                                        <br>
-                                        <p><b>Email ID: </b></p>
-                                        <br>
-                                        <p><b>Mobile number: </b></p>
-                                        </b>
-                                    </i>
+                  <form class="form-horizontal row-fluid" action="book.php" method="post">
+                                        <div class="control-group">
+                                            <label class="control-label" for="Search"><b>Search:</b></label>
+                                            <div class="controls">
+                                                <input type="text" id="title" name="title" placeholder="Enter Name/ID of Book" class="span8" required>
+                                                <button type="submit" name="submit"class="btn">Search</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <br>
 
-                                    </div>
-                                </div>
-                            <br>
-                            <a href="edit_admin.php" class="btn btn-primary">Edit Details</a>
-                            </center>
-                        </div>
+                        <table class="table" id = "tables">
+                                  <thead>
+                                    <tr>
+                                      <th>Book id</th>
+                                      <th>Book name</th>
+                                      <th>Availability</th>
+                                      <th></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td><b></b></td>
+                                          <td><center>
+                                              <a href="bookdetails.html" class="btn btn-primary">Details</a>
+                                              <a href="edit_book.html" class="btn btn-success">Edit</a>
+                                          </center></td>
+                                      </tr>
 
-                        <!--/.span9-->
-                    </div>
-                </div>
-                <!--/.container-->
-            </div>
-    <div class="footer">
-                <div class="container">
+                                 </tbody>
+                                  </table>
+                              </div>
+                      <!--/.span9-->
+                  </div>
+              </div>
+              <!--/.container-->
+          </div>
+  <div class="footer">
+              <div class="container">
 
-                </div>
-            </div>
+              </div>
+          </div>
 
-            <!--/.wrapper-->
-            <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-            <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-            <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-            <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-            <script src="scripts/common.js" type="text/javascript"></script>
+          <!--/.wrapper-->
+          <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+          <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+          <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+          <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+          <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+          <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+          <script src="scripts/common.js" type="text/javascript"></script>
 
-        </body>
-    </html>
+      </body>
+
+  </html>
+

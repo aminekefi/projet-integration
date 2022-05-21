@@ -11,19 +11,13 @@
         <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
             rel='stylesheet'>
-
-
-
-            <!-- CSS only -->
-
-
     </head>
     <body>
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">Home </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">LMS </a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav pull-right">
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -72,45 +66,61 @@
                     <!--/.span3-->
 
                     <div class="span9">
-                        <center>
-                            <div class="card" style="width: 50%;">
-                                <img class="card-img-top" src="images/profile2.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <i>
-                                        <h1 class="card-title"><center></center></h1>
-                                        <br>
-                                        <p><b>Email ID: </b></p>
-                                        <br>
-                                        <p><b>Mobile number: </b></p>
-                                        </b>
-                                    </i>
+                        <form class="form-horizontal row-fluid" action="student.html" method="post">
+                                        <div class="control-group">
+                                            <label class="control-label" for="Search"><b>Search:</b></label>
+                                            <div class="controls">
+                                                <input type="text" id="title" name="title" placeholder="Enter Name/Roll No of Student" class="span8" required>
+                                                <button type="submit" name="submit"class="btn">Search</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <br>
+                                    <table class="table" id = "tables">
+                                        <thead>
+                                          <tr>
+                                            <th>Name</th>
+                                            <th>Roll No.</th>
+                                            <th>Email id</th>
+                                            <th></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                  <td>
+                                                  <center>
+                                                      <a href="studentdetails.html" class="btn btn-success">Details</a>
 
-                                    </div>
-                                </div>
-                            <br>
-                            <a href="edit_admin.php" class="btn btn-primary">Edit Details</a>
-                            </center>
-                        </div>
+                                                </center>
+                                                  </td>
+                                              </tr>
 
-                        <!--/.span9-->
-                    </div>
-                </div>
-                <!--/.container-->
-            </div>
-    <div class="footer">
-                <div class="container">
+                                            </tbody>
+                                          </table>
+                                      </div>
+                              <!--/.span9-->
+                          </div>
+                      </div>
+                      <!--/.container-->
+                  </div>
+          <div class="footer">
+                      <div class="container">
+                          <
+                      </div>
+                  </div>
 
-                </div>
-            </div>
+                  <!--/.wrapper-->
+                  <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+                  <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+                  <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+                  <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+                  <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+                  <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+                  <script src="scripts/common.js" type="text/javascript"></script>
 
-            <!--/.wrapper-->
-            <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-            <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-            <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-            <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-            <script src="scripts/common.js" type="text/javascript"></script>
+              </body>
 
-        </body>
-    </html>
+          </html>

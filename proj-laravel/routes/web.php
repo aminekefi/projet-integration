@@ -14,4 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [AppController::class,'welcome']);
+Route::get('/message', [AppController::class,'mess']);
+Route::get('/student', [AppController::class,'student']);
+Route::get('/book', [AppController::class,'book']);
+Route::get('/addbook', [AppController::class,'addbook']);
+Route::get('/requests', [AppController::class,'requests']);
+Route::get('/recommendations', [AppController::class,'recommendations']);
+Route::get('/current', [AppController::class,'current']);
+
+
+
+
+
+
+
 

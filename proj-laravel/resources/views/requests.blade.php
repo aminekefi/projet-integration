@@ -11,19 +11,13 @@
         <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
         <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
             rel='stylesheet'>
-
-
-
-            <!-- CSS only -->
-
-
     </head>
     <body>
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">Home </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.php">LMS </a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav pull-right">
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -69,48 +63,58 @@
                         </div>
                         <!--/.sidebar-->
                     </div>
-                    <!--/.span3-->
-
                     <div class="span9">
                         <center>
-                            <div class="card" style="width: 50%;">
-                                <img class="card-img-top" src="images/profile2.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <i>
-                                        <h1 class="card-title"><center></center></h1>
-                                        <br>
-                                        <p><b>Email ID: </b></p>
-                                        <br>
-                                        <p><b>Mobile number: </b></p>
-                                        </b>
-                                    </i>
+                        <a href="" class="btn btn-info">Issue Requests</a>
+                        <a href="" class="btn btn-info">Renew Request</a>
+                        <a href="" class="btn btn-info">Return Requests</a>
+                        </center>
+                        <h1><i>Issue Requests</i></h1>
+                        <table class="table" id = "tables">
+                                  <thead>
+                                    <tr>
+                                      <th>Roll Number</th>
+                                      <th>Book Id</th>
+                                      <th>Book Name</th>
+                                      <th>Availabilty</th>
+                                      <th></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td><b></b></td>
+                                        <td></td>
+                                        <td><center>
+                                            <a href="" class="btn btn-primary">Accept</a>
+                                          <a href="" class="btn btn-danger">Reject</a>
+                                      </center></td>
+                                      </tr>
+                                 </tbody>
+                                  </table>
+                              </div>
+                      <!--/.span3-->
+                      <!--/.span9-->
+                  </div>
+              </div>
+              <!--/.container-->
+          </div>
+  <div class="footer">
+              <div class="container">
 
-                                    </div>
-                                </div>
-                            <br>
-                            <a href="edit_admin.php" class="btn btn-primary">Edit Details</a>
-                            </center>
-                        </div>
+              </div>
+          </div>
 
-                        <!--/.span9-->
-                    </div>
-                </div>
-                <!--/.container-->
-            </div>
-    <div class="footer">
-                <div class="container">
+          <!--/.wrapper-->
+          <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+          <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+          <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+          <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+          <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+          <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+          <script src="scripts/common.js" type="text/javascript"></script>
 
-                </div>
-            </div>
+      </body>
 
-            <!--/.wrapper-->
-            <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-            <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-            <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
-            <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-            <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-            <script src="scripts/common.js" type="text/javascript"></script>
-
-        </body>
-    </html>
+  </html>
