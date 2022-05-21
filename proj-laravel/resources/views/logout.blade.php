@@ -30,17 +30,17 @@
 
 		<div class="login">
 			<h2>Sign In</h2>
-			<form action="index.html" method="post">
+			<form action="index.php method="post">
 				<input type="text" Name="RollNo" placeholder="RollNo" required="">
 				<input type="password" Name="Password" placeholder="Password" required="">
-			
-			
+
+
 			<div class="send-button">
 				<!--<form>-->
 					<input type="submit" name="signin"; value="Sign In">
 				</form>
 			</div>
-			
+
 			<div class="clear"></div>
 		</div>
 
@@ -52,17 +52,16 @@
 				<input type="password" Name="Password" placeholder="Password" required>
 				<input type="text" Name="PhoneNumber" placeholder="Phone Number" required>
 				<input type="text" Name="RollNo" placeholder="Roll Number" required="">
-				
-				
+
+
 				<br>
-			
-			
+
+
 			<br>
 			<div class="send-button">
 			    <input type="submit" name="signup" value="Sign Up">
 			    </form>
 			</div>
-			<p>By creating an account, you agree to our <a class="underline" href="terms.html">Terms</a></p>
 			<div class="clear"></div>
 		</div>
 
@@ -71,10 +70,10 @@
 	</div>
 
 	<div class="footer w3layouts agileits">
-		
-		
+
+
 	</div>
-    
-        
+
+
     </body>
   </html>

@@ -21,6 +21,8 @@ Route::get('/addbook', [AppController::class,'addbook']);
 Route::get('/requests', [AppController::class,'requests']);
 Route::get('/recommendations', [AppController::class,'recommendations']);
 Route::get('/current', [AppController::class,'current']);
+Route::get('/logout', [AppController::class,'logout']);
+
 
 
 

@@ -31,5 +31,7 @@ class AppController extends Controller
     public function current(){
         return view('current');
     }
-
+    public function logout(){
+        return view('logout');
+    }
 }
